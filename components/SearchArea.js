@@ -46,7 +46,7 @@ const SearchArea = (props) => {
         </View>
         <Button
           title="Search"
-          style={styles.button}
+          style={styles.btn}
           onPress={inputSubmitHandler}
         />
       </View>
@@ -62,6 +62,10 @@ const SearchArea = (props) => {
 const styles = StyleSheet.create({
   headerContainer: {
     marginVertical: 30,
+  },
+  btn: {
+    backgroundColor: "#5762d5",
+    borderRadius:10
   },
   inputContainer: {
     flexDirection: "row",

@@ -5,7 +5,7 @@ const DUMMY_DATA = [
             .toString(),
         title: 'php error',
         upVotes: 5,
-        userName: 'love sharma'
+        userName: 'mahima sharma'
     },
     {
         id: Math
@@ -13,7 +13,7 @@ const DUMMY_DATA = [
             .toString(),
         title: 'react error',
         upVotes: 7,
-        userName: 'Mayank rawat'
+        userName: 'Simran'
     },
     {
         id: Math
@@ -21,7 +21,7 @@ const DUMMY_DATA = [
             .toString(),
         title: 'node error',
         upVotes: 10,
-        userName: 'saksham'
+        userName: 'rahul'
     }
 ];
 

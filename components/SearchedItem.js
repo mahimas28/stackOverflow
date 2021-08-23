@@ -19,7 +19,7 @@ const SearchedItem = (props) => {
             <Text style={styles.voteText}>{props.data.upVotes}</Text>
           </View>
           <View>
-            <Icon name="caretup"></Icon>
+            <Icon style={styles.caretup} name="caretup"></Icon>
           </View>
         </View>
         <View style={styles.questionItem}>
@@ -41,19 +41,32 @@ const SearchedItem = (props) => {
 const styles = StyleSheet.create({
   listItems: {
     borderColor: "gray",
-    borderBottomWidth: 1,
     flexDirection: "row",
+    margin: 5,
+    backgroundColor: "white",
+    borderRadius: 10,
+    shadowColor: "grey",
+    shadowRadius: 10,
+    shadowOpacity: 0.8,
+    shadowOffset:{width:0, height:2},
+
+  },
+  caretup: {
+    color:"white"
   },
   votes: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#ebebeb",
+    backgroundColor: "#8980F5",
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
+    borderTopLeftRadius: 10,
+    borderBottomLeftRadius:10
   },
   voteText: {
     fontSize: 17,
+    color:"white"
   },
   questionItem: {
     flex: 4,
@@ -62,10 +75,10 @@ const styles = StyleSheet.create({
   },
   questionTitle: {
     fontWeight: "bold",
-    color: "#00BFFF",
+    color: "gray",
   },
   username: {
-    color: "#00BFFF",
+    color: "#8980F5",
   },
 });
 

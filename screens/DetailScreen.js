@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontWeight: "bold",
-    color: "#00BFFF",
+    color: "#5762d5",
   },
   answerHeading: {
     backgroundColor: "#ececec",

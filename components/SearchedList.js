@@ -38,7 +38,7 @@ const SearchedList = (props) => {
       <FlatList
         data={data}
         onEndReached={fetchMoreResults}
-        onEndReachedThreshold={0.5}
+       // onEndReachedThreshold={0.5}
         renderItem={(itemData) => (
           <SearchedItem navigation={props.navigation} data={itemData.item} />
         )}
